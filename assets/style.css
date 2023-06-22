@@ -1,0 +1,210 @@
+body {
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+#container {
+    width: 100%; /* alterie pra teste, esse e o de baixo*/
+    max-width: 1440px;
+    height: 780px;
+    
+    background-color: #f2f2f2;   /* esse metodo fez com que o container fica-se no meio da tela*/
+    position: absolute;
+   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: auto;
+
+}
+
+#left-side {
+    background-color: black;
+    display: flex;
+    position: absolute;  /*tava relativo eu mudei para absolute opra ver oq eu acontece*/
+    width: 100%;
+    max-width: 720px;
+    height: 780px;
+    margin: auto;
+        
+}
+
+#left-side .logo a {
+   
+    
+    background-image: url(logo.svg);
+    display: flex;
+    position: absolute;
+    width: 100%;
+    max-width: 389px;
+    height: 94px;
+    flex-shrink: 0;
+    top: 50px;
+    left: 30px;
+    
+}
+#left-side h1 {
+    
+    display: flex;
+    position: absolute;
+    width: 100%;
+    max-width: 566px;
+    height: 30.438px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--green, #08C05E);
+    font-size: 24px;
+    font-family: Work Sans;
+    font-weight: 700;
+    top: 236px;
+    left: 36px;
+    margin: auto;
+    
+
+}
+ #left-side p {
+    
+    color: #FFF;
+    font-size: 14px;
+    font-family: Spartan;
+    font-weight: 700;
+
+    position: absolute;
+    width: 100%;
+    max-width: 517px;
+    height: 16px;
+    top: 275px;
+    left: 36px;
+ }
+
+ #left-side p1 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    max-width: 647px;
+    height: 38px;
+    top: 308.5px;
+    left: 36px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+
+    color: #FFF;
+    font-size: 14px;
+    font-family: Spartan;
+    line-height: 138.735%;
+ }
+    
+ #left-side p2{
+    color: #A8A8A8;
+    font-size: 14px;
+    font-family: Spartan;
+    font-weight: 700;
+    line-height: 138.735%;
+
+    position: absolute;
+
+    width: 100%;
+    max-width: 133px;
+    height: 19px;
+    top: 388px;
+    left: 36px;
+ }
+
+ #left-side input  {
+    position: absolute;
+    width: 100%;
+    max-width: 750px;
+    height: 48px;
+    flex-shrink: 0;
+    left: 36px;
+    top: 424px;
+    border-left-width: 5px;
+    border-left-color: #04D361;
+    border-right-color: #8257e5;
+    border-right-width: 48px;
+    
+ }
+
+ ::placeholder {
+    
+    color: #6A6A6A;
+    font-size: 12px;
+    font-family: Work Sans;
+    position: absolute;
+    width: 100%;
+    max-width: 113px;
+    height: 14px;
+    top: 17px;
+    left: 15px;
+}
+
+
+
+#right-side {
+    
+    position: absolute;
+    width: 100%;
+    max-width: 1175px;
+    height: 784px;
+    flex-shrink: 0;
+    top: 0;
+    left: 376px;
+    
+
+}
+
+#left-side .send a img {
+    
+    position: absolute;
+    max-width: 100%;
+    max-width: 24px;
+    height: 24px;
+    right: 729px;
+    top: 438px; /* top 436px esse e correto*/
+    left: 775px; /*o correteo e 798px checar depois se casop mudar de posicao ou tenta no lado right denovo*/
+    flex-shrink: 0; 
+    background-image: url(send.svg) no repeat;
+}
+
+#left-side .link a {
+    
+    position: absolute;
+    width: 100%;
+    max-width: 167px;
+    height: 19px;
+    top: 524px;
+    left: 36px;
+    text-decoration: none;
+    color: var(--purple, #8257E5);
+    font-size: 14px;
+    font-family: Spartan;
+    font-weight: 700;
+    line-height: 138.735%;
+}
+
+#left-side .arrow-right a img {
+    
+    position: absolute;
+    width: 100%;
+    max-width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    top: 523px;
+    left: 170px;
+    
+}
+
+#right-side img {
+    position: absolute;
+    width: 100%;
+    max-width: 1175px;
+    height: 780px;
+    flex-shrink: 0; 
+    z-index: -1;
+}
+
+
