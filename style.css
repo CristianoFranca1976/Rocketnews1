@@ -159,7 +159,7 @@ form button {
   max-width: 1440px;
   max-height: 780px;
   z-index: 2;
-  background: #3439539c;
+  background: transparent;
   display: none;
 }
 #enviado img {
